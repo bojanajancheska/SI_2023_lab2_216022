@@ -1,7 +1,7 @@
 ## Бојана Јанческа 216022
 
 ### 2. Control flow graph 
-![Control flow graph](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/5671de54-25a1-4279-bb0e-c5561e259c0a)
+![Control flow graph](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/e7f9c465-9f59-4dca-b3cc-f612ab97910f)  
 
 ### 3. Cyclomatic complexity
   Edges = 35  
@@ -11,7 +11,7 @@
   Predicate nodes + 1 = 10 + 1 = 11  
 
 ### 4. Every Branch   
-![image](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/e94726f6-eef4-4ad3-98de-c8df96513d9c)  
+![image](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/53c0e39d-e92e-4017-867c-6ae4347380e1)  
 - Со првиот тест случај влегува во првиот if, така што изминатите јазли се: a->b, b->v
 - Вториот тест случај го исполнува четвртиот услов, така што изминатите јазли се:
 a->c, c->e, e->m, m->n, n->o, o->v
@@ -21,7 +21,7 @@ a->c, c->e, e->m, m->n, n->o, o->v
 a->c, c->d, d->e, e->f, f->g1, g1->g2, g2->h, h->i, i->j, j->k, k->g3, g3->g2, g2->l, l->m, m->n, n->p, p->q1, q1->q2, q2->r, r->q3, q3->q2, q2->t, t->u, u->v
 
 ### 5. Multiple Condition  
-![image](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/4c94dd6e-f8b3-4d3c-8d8a-66f0eb517746)  
+![image](https://github.com/bojanajancheska/SI_2023_lab2_216022/assets/109024988/855b0a20-9001-47cc-b750-b0bf53ef36fb)  
 Можните комбинации се следните четири:
 - (T,X,X) - со првиот точен аргумент условот е исполнет, па јазолот е: a->b
 - (F,T,X) - тука, со вториот аргумент се исполнува условот, односно веќе имаме user, но не и лозинка. Јазолот останува: a->b
